@@ -33,7 +33,7 @@ The orders came as a single `.txt` file. You can't just open it in Excel and sta
 - The final table has 4,750 rows.
 - Every date is now a real date, every phone number looks like `01xxxxxxxxx`, and each city has one spelling.
 
-*(Screenshots of the data before and after are in the `screenshots` folder.)*
+*(Screenshots of the data before and after are in the `Screenshots` folder.)*
 
 ## How It Works
 
@@ -51,7 +51,7 @@ The file path is not written inside the code. It comes from a parameter called `
 
 1. Open Excel and go to **Data > Get Data > Launch Power Query Editor**.
 2. Create a parameter called `FilePath` (**Manage Parameters > New Parameter**, type Text) and put the path to the `.txt` file as the value.
-3. Create a blank query, open **Advanced Editor**, and paste the code from `clean_orders.m`.
+3. Create a blank query, open **Advanced Editor**, and paste the code from `Clean_Orders.m`.
 4. Click **Close & Load**.
 
 ## Tools
@@ -60,6 +60,6 @@ Excel, Power Query (M language)
 
 ## Files
 
-- `clean_orders.m`: the Power Query script
-- `Orders_Clean.xlsx`: the cleaned table
-- `screenshots/`: before and after
+- `Clean_Orders.m`: the Power Query script
+- `clean orders.xlsx`: the cleaned table
+- `Screenshots/`: before and after
