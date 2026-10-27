@@ -60,6 +60,6 @@ Excel, Power Query (M language)
 
 ## Files
 
-- `Clean_Orders.m`: the Power Query script
+- `Clean_Orders.pq`: the Power Query script
 - `clean orders.xlsx`: the cleaned table
 - `Screenshots/`: before and after
